@@ -5,7 +5,7 @@ import re
 app = Flask(__name__)
 
 # Configure the AI model
-API_KEY = 'AIzaSyCnBw0MB4Pm-hwgELTR27OhAT4fpzgEdMA'
+API_KEY = 'AIzaSyCnBw0MB4Pm-hwgELTR27OhAT4fpzgEdMA' 
 ai.configure(api_key=API_KEY)
 
 model = ai.GenerativeModel("gemini-pro")
